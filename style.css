@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  dl > div {
+    background: rgb(20, 137, 214);
+    padding: 24px 0 0 0;
+    width: 50%;
+    margin: auto;
+  }
+  h1{
+      text-align: center;
+  }
+  dt {
+    background: #000000;
+    border-bottom: 1px solid #92c9ff;
+    border-top: 1px solid #717D85;
+    color: #FFF;
+    font-size: 21px ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 12px 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1px;
+    height: 40px;
+    text-align: center;
+  }
+  
+  dd {
+    font-size: 20px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 10px 12px;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  dd + dd {
+    border-top: 1px solid rgb(87, 6, 236);
+  }
